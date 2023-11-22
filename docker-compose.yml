@@ -9,7 +9,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/postgres_data
     environment:
-      POSTGRES_USER: postgres_data
+      POSTGRES_USER: postgres
       POSTGRES_DB: threads
       POSTGRES_PASSWORD: threads
 
